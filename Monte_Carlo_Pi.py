@@ -31,7 +31,7 @@ class MonteCarloPi(object):
         # This ratio is (pi*1^2)/4 // 1*1, so
         self.pi = ratio * 4
 
-    # Function that plots the points and the circumference
+    # Function that plots the points
     def plot(self):
 
         array_in, array_out = [],[]
